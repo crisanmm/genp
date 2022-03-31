@@ -17,5 +17,5 @@ chmod +x ./genp.ts
 3. Generate an image, each image in specified format and size:
 
 ```
-genp.ts foo.jpg --formats=avif,webp,png --sizes=720,1024,1080x1920,original
+./genp.ts foo.jpg --formats=avif,webp,png --sizes=720,1024,1080x1920,original
 ```
